@@ -1,0 +1,125 @@
+.titulo{
+	font-family:Helvetica ;
+	text-align: center;
+	font-size:25px;
+ color: #dfdddt;
+
+}
+/*fixar o cabeçalho*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+
+}
+.menu {
+    background-color:#D8BFD8;
+    text-align: center;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    display: block;
+    color: #000000;
+    padding: 10px 10px;
+    font-size:15px;
+    font-family: germana;
+
+}
+
+.header {
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+}
+
+/*slide*/
+
+* { margin: 0;
+ padding: 0; 
+ box-sizing: border-box;
+
+}
+
+.slide{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 00px;
+
+}
+
+.slide ul{
+    display: flex;
+    padding: 0;
+    width: 1000%;
+    animation: cambio 80s infinite alternate;
+
+}
+
+.slide ul:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+
+}
+
+.slide li{
+    width: 100%;
+    list-style: none;
+}
+.slide img{
+   max-width: 100%; 
+display:block; 
+height: auto;
+  
+}
+
+@keyframes cambio {
+ 
+ 0%{margin-left: 0%;}
+    5%{margin-left: 0%;}
+
+    10%{margin-left: -100%;}
+    15%{margin-left: -100%;}
+
+    20%{margin-left: -200%;}
+    25%{margin-left: -200%;}
+
+    30%{margin-left: -300%;}
+    35%{margin-left: -300%;}
+
+    40%{margin-left: -400%;}
+    45%{margin-left: -400%;}
+
+    50%{margin-left: -500%;}
+    55%{margin-left: -500%;}
+
+    60%{margin-left: -600%;}
+    65%{margin-left: -600%;}
+
+    70%{margin-left: -700%;}
+    75%{margin-left: -700%;}
+
+    80%{margin-left: -800%;}
+    85%{margin-left: -800%;}
+
+
+    90%{margin-left: -900%;}
+    100%{margin-left: -900%;}
+
+
+   
+}
+.text{
+
+    margin: auto;
+    
+}
+
+.rodape{
+    margin: auto;
+}
+
