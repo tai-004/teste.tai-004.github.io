@@ -1,5 +1,11 @@
 /*o css do login da pagina home*/
-
+body{
+    background-image: url(casmurro.jpg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 100%;   
+}
 * {
     margin: 0;
     padding: 0;
@@ -9,19 +15,23 @@
 }
 
 .menu {
-    background-color:#bd1c1c;
+    
     text-align: center;
+    
 }
 .menu ul li {
     display: inline-block;
 }
 .menu ul li a {
     display: block;
-    color: #a52c1c;
+    color: #d85353;
     padding: 10px 10px;
     font-size:15px;
     font-family: germana;
 
+}
+.cabe1{
+    margin: 20px;
 }
 
 .header {
